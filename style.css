@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+body{
+	background-color: black;
+}
+
+.main{
+	height: 101vh;
+	background-image: url(images/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: max(1200px, 100vw);
+	position: relative;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 77vw;
+	margin: auto;
+	height: 62px;
+	padding-top: 17px;
+}
+
+
+img{
+	width: 150px;
+	position: relative;
+	z-index: 10;
+}
+
+nav button{
+	position: relative;
+	z-index: 10;
+}
+
+.main .box{
+	height: 101vh;
+	width: 100%;
+	opacity: 0.74;
+	position: absolute;
+	top: 0;
+	background-color: black;
+	color: white;
+}
+
+.hero{
+	color: white;
+	font-family: "Martel Sans", sans-serif;
+	height: calc(100% - 29px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	gap: 10px;
+	margin-top: -50px;
+	padding: 0px 30px;
+}
+
+.hero> :first-child{
+	font-weight: 900px;
+	font-weight: bolder;
+	font-size: 48px;
+	text-align: center;
+}
+
+.hero> :nth-child(2){
+	font-family: 'Segoe UI';
+	font-weight: 400px;
+	font-size: 24px;
+	font-weight: bold;
+	gap: 23px;
+	text-align: center;
+}
+
+.hero> :nth-child(3){
+	font-family: 'Segoe UI';
+	font-weight: 400px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 3;
+	text-align: center;
+}  
+
+.sepration{
+	background-color: rgb(46, 44, 44);
+	height: 7px;
+	
+}
+
+.hero-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+}
+
+.head-button{
+	gap: 25px;
+}
+
+.btn{
+	font-weight: bold;
+	background-color: white;
+	border: none;
+}
+
+.btn-red-sm{
+	background-color: red;
+	color: white;
+	padding: 6px 15px;
+	border-radius: 5px;
+	margin-right: 23px;
+	margin-left: 22px;
+}
+
+
+.btn-language{
+	padding: 6px 32px;
+	border-radius: 5px;
+}
+
+
+
+.main-input{
+	background-color: rgba(23, 23, 23, 0.2);
+	border: 1px solid grey;
+	padding: 7px 100px 8px 14px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+
+.btn-red{
+	background-color: red;
+	color: white;
+	padding: 3px 24px;
+	font-size: 20px;
+	border-radius: 4px;
+}
+
+.first{
+	display: flex;
+	padding: 4.5rem;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.secfirst-text > :nth-child(1){
+	color: white;
+	font-size: xxx-large;
+}
+.secfirst-text > :nth-child(2){
+	color: white;
+	font-size: 20px;
+	line-height: 2;
+}
+.secfirst-text > :nth-child(3){
+	color: white;
+	font-size: 18px;
+}
+
+.secfirst-img img{
+	/* width: 35rem; */
+	width: 560px;
+	position: relative;
+}
+
+
+
+.secfirst-img video{
+	position: absolute;
+	padding-top: 4rem;
+	right: 140px;
+	
+}
+
+.second{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4.5rem 0;
+	width: 100%;
+}
+
+.sec-second-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sec-second-img img{
+	width: 90%;
+	position: relative;
+	z-index: -1;
+}
+
+.sec2-download{
+        background: rgb(0, 0, 0);
+    height: 100px;
+    width: 21%;
+    position: absolute;
+    margin-top: 226px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+}
+
+.sec2-download img{
+    position: absolute;
+    z-index: 1;
+    width: 56px;
+    margin: 11px
+}
+
+
+.sec1-box-txt {
+	color: white;
+    display: block;
+    padding-left: 81px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.sec2-box-txt{
+	color: blue;
+    display: block;
+    padding-left: 83px;
+    padding-top: 0px;
+}
+
+.sec2-box-img{
+	left: 234px;
+    bottom: 5px;
+}
+
+.sec-second-text > :nth-child(1){
+	color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+.sec-second-text > :nth-child(2){
+	color: white;
+    font-size: 23px;
+    /* font-weight: bolder; */
+}
+
+
+.third{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.sec3-text > :nth-child(1){
+	display: block;
+	font-size: xxx-large;
+}
+
+.sec3-image{
+	display: flex;
+
+}
